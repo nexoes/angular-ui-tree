@@ -46,5 +46,8 @@
     "test": "gulp build && gulp test:e2e",
     "coveralls": "cat ./coverage/lcov/lcov.info | coveralls",
     "codacy": "cat ./coverage/lcov/lcov.info | codacy-coverage --verbose"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
